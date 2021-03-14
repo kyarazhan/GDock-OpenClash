@@ -12,6 +12,8 @@
 
 #Clone SSRPlus source code
 #git clone https://github.com/fw876/helloworld package/SSRPlus
+#Clone OpenClash
+git clone https://github.com/vernesong/OpenClash
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 
