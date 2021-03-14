@@ -11,7 +11,7 @@
 #
 
 #Clone SSRPlus source code
-git clone https://github.com/fw876/helloworld package/SSRPlus
+#git clone https://github.com/fw876/helloworld package/SSRPlus
 #Clone OpenAppFilter source code
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 

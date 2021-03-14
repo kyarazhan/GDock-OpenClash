@@ -12,6 +12,8 @@
 # 删除默认argon主题，并下载新argon主题
 rm -rf ./package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon/
+# Clone OpenClash
+git clone https://github.com/vernesong/OpenClash.git
 # Modify default IP
 sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 # Modify default host name
