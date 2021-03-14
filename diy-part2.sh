@@ -9,8 +9,7 @@
 # File name: diy-part2.sh
 # Description: OpenWrt DIY script part 2 (After Update feeds)
 #
-
-# 鍒犻櫎榛樿argon涓婚锛屽苟涓嬭浇鏂癮rgon涓婚
+# 删除默认argon主题，并下载新argon主题
 rm -rf ./package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git ./package/lean/luci-theme-argon/
 # Modify default IP
